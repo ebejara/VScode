@@ -1,0 +1,2737 @@
+<?xml version="1.0"?>
+<TextExchangeFormat xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MasterMessages TextType="Advanced">
+		<MasterMessageAdvanced>
+			<MSGID>0031</MSGID>
+			<Text>Keep safe distance</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0032</MSGID>
+			<Text>Auto brake was activated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0093</MSGID>
+			<Text>Low voltage warning\nFunctionality temporarily reduced</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0094</MSGID>
+			<Text>High voltage converting\nto low voltage failure\nStop safely</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0095</MSGID>
+			<Text>12 V battery\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0096</MSGID>
+			<Text>Low voltage battery level low</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0097</MSGID>
+			<Text>Low voltage battery level low\nPower save mode soon entered</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0098</MSGID>
+			<Text>Factory mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0099</MSGID>
+			<Text>Factory mode paused</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0100</MSGID>
+			<Text>Transport mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0101</MSGID>
+			<Text>Transport mode paused</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0102</MSGID>
+			<Text>Normal mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0103</MSGID>
+			<Text>Crash mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0104</MSGID>
+			<Text>Entering dyno mode\n\nContinue?</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0105</MSGID>
+			<Text>Mode not intended for road driving\nSafety functions will be disabled\n\nContinue?</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0106</MSGID>
+			<Text>Choose dynamometer type</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0107</MSGID>
+			<Text>Dyno mode active\nMode not intended for road driving\nSafety functions will be disabled\nPress hazard switch twice to exit</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0108</MSGID>
+			<Text>No valid key found</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0111</MSGID>
+			<Text>Autostart\nVehicle running</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0112</MSGID>
+			<Text>Ignition ON</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0113</MSGID>
+			<Text>Select P or N\nto start the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0114</MSGID>
+			<Text>Select N to start the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0115</MSGID>
+			<Text>Press clutch pedal\nto start the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0116</MSGID>
+			<Text>Press brake pedal\nto start the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0117</MSGID>
+			<Text>Vehicle turn off\nTurn and hold start knob</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0118</MSGID>
+			<Text>Vehicle turn off\nPress and hold start button</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0119</MSGID>
+			<Text>Vehicle start \nTurn start knob</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0120</MSGID>
+			<Text>Press start button\nto start the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0121</MSGID>
+			<Text>Vehicle start\nSystem check\nPlease wait</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0122</MSGID>
+			<Text>Select P to turn off the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0123</MSGID>
+			<Text>Vehicle turn off\nTurn and hold start knob</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0124</MSGID>
+			<Text>Press and hold start button\nto turn off the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0125</MSGID>
+			<Text>Charge cable connected\nRemove before start</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0126</MSGID>
+			<Text>Charge cable not removed\nTurn and hold the start knob 7s\nto start the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0127</MSGID>
+			<Text>Charge cable not removed\nPress and hold the start button 7s\nto start the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0128</MSGID>
+			<Text>Charge Cable connected\nRemove before start</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0151</MSGID>
+			<Text>Coolant system\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0152</MSGID>
+			<Text>Electric drive system\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>01528</MSGID>
+			<Text>Are you sure you want to turn off the car?\n\n(To turn on power again press\nthe brake pedal)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0167</MSGID>
+			<Text>Home safe light activated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0168</MSGID>
+			<Text>AFS system fault\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0169</MSGID>
+			<Text>Rear position light fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0170</MSGID>
+			<Text>Front high beam fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0171</MSGID>
+			<Text>Front low beam fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0172</MSGID>
+			<Text>Adaptive bending light\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0173</MSGID>
+			<Text>Head lamp levelling\nSystem fault\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0174</MSGID>
+			<Text>Left tourist light activated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0175</MSGID>
+			<Text>Right tourist light activated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0176</MSGID>
+			<Text>Brake fault\nStop safely</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0177</MSGID>
+			<Text>ABS and ESC\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0178</MSGID>
+			<Text>ABS and ESC\ntemporarily unavailable</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0179</MSGID>
+			<Text>ESC\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0180</MSGID>
+			<Text>ESC temporarily unavailable</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0181</MSGID>
+			<Text>Traction control temporarily\nunavailable</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0183</MSGID>
+			<Text>Brake system\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0184</MSGID>
+			<Text>Auto hold\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0185</MSGID>
+			<Text>Press brake pedal\nto disable auto hold</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0186</MSGID>
+			<Text>Fasten seat belt or close driver door\nto enable auto hold</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0187</MSGID>
+			<Text>Press Brake\nUnable to automatically hold vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0188</MSGID>
+			<Text>Auto brake activated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0189</MSGID>
+			<Text>Parking brake not released</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0190</MSGID>
+			<Text>Parking brake cannot hold vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0191</MSGID>
+			<Text>Parking brake not fully released</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0192</MSGID>
+			<Text>Parking brake not applied</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0193</MSGID>
+			<Text>Press brake pedal\nto release parking brake</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0194</MSGID>
+			<Text>Parking brake\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0195</MSGID>
+			<Text>Parking brake\ntemporarily unavailable</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0196</MSGID>
+			<Text>Use parking brake control\nto release parking brake</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0197</MSGID>
+			<Text>Parking brake applied\nautomatic adjustments</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0198</MSGID>
+			<Text>Test mode activated\nParking brake roller bench</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0199</MSGID>
+			<Text>Release parking brake or\nfasten seat belt and close door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0200</MSGID>
+			<Text>Parking brake overheated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0206</MSGID>
+			<Text>Check brake fluid level</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0207</MSGID>
+			<Text>Current drive mode\nRestricted vehicle stability</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0208</MSGID>
+			<Text>Steering Assistance\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0209</MSGID>
+			<Text>Steering Malfunction\nStop Safely</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0210</MSGID>
+			<Text>Steering Assistance\nService urgent</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0211</MSGID>
+			<Text>Steering Assistance\nTemporary reduced</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0248</MSGID>
+			<Text>Book time for maintenance</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0249</MSGID>
+			<Text>Time for regular maintenance</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0250</MSGID>
+			<Text>Maintenance overdue</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0260</MSGID>
+			<Text>Do not connect two cables</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0265</MSGID>
+			<Text>High voltage battery failure\nStop Safely\nImmediately leave the vehicle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0266</MSGID>
+			<Text>High voltage system self-check\nPlease wait</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0267</MSGID>
+			<Text>Power system fault\nDo not drive\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0268</MSGID>
+			<Text>Power system fault\nStop safely\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0269</MSGID>
+			<Text>E-drive system fault\nStop safely\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0270</MSGID>
+			<Text>Power system fault\nCannot start again\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0271</MSGID>
+			<Text>Power limited\nDrive carefully\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0272</MSGID>
+			<Text>E-drive system harsh behavior\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0273</MSGID>
+			<Text>Power system fault\nCannot charge\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0274</MSGID>
+			<Text>Power system fault\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0283</MSGID>
+			<Text>High voltage battery fault\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0288</MSGID>
+			<Text>SRS\nService urgent</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0323</MSGID>
+			<Text>Apply brakes to turn off e-pedal</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0324</MSGID>
+			<Text>E-pedal system unavailable\nSystem fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0325</MSGID>
+			<Text>E-pedal system unavailable</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0336</MSGID>
+			<Text>Press brake\nto release gear shift</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0337</MSGID>
+			<Text>Gear shift\nMovement to manual gear\nnot allowed</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0338</MSGID>
+			<Text>Next engine start may\nnot be possible</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0339</MSGID>
+			<Text>Vehicle movement direction\ncannot be changed</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0340</MSGID>
+			<Text>Gear shift\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0341</MSGID>
+			<Text>Manual mode activated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0344</MSGID>
+			<Text>Please return shift\nto its initial state</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0345</MSGID>
+			<Text>Shift to D\nto enable manual mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0346</MSGID>
+			<Text>Please stop pushing P-button</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0350</MSGID>
+			<Text>Transmission malfunction\nService urgently required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0351</MSGID>
+			<Text>Transmission malfunction\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0352</MSGID>
+			<Text>Transmission malfunction\nStop safely\nVehicle shall be towed to service</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0353</MSGID>
+			<Text>Gear selector malfunction\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0354</MSGID>
+			<Text>Gearbox\nOil temp high\nStop safely</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0355</MSGID>
+			<Text>Gearbox\nOil temp high</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0356</MSGID>
+			<Text>Transmission\nAcceleration performance low</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0357</MSGID>
+			<Text>Transmission adjusted</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0358</MSGID>
+			<Text>Transmission overspeed\nPress brake to decrease speed</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0359</MSGID>
+			<Text>Transmission\nAdaptation mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0360</MSGID>
+			<Text>Gearbox\nShift indication mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0361</MSGID>
+			<Text>Gearbox\nShift indication mode</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0362</MSGID>
+			<Text>Transmission overheated\nPark safely</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0363</MSGID>
+			<Text>Transmission cooling\nLet engine run</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0364</MSGID>
+			<Text>Transmission performance reduced\nReverse not available</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0365</MSGID>
+			<Text>Transmission performance reduced\nAvoid stopping uphill</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0366</MSGID>
+			<Text>Transmission performance reduced\nAvoid hill driving</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0367</MSGID>
+			<Text>Transmission performance reduced</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0368</MSGID>
+			<Text>Check gear shift position</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0369</MSGID>
+			<Text>Shift lock override</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0370</MSGID>
+			<Text>Clutch overspeed\nSlow down</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0371</MSGID>
+			<Text>Gear shift not possible\nStop safely\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0372</MSGID>
+			<Text>Rolling possible in N\nSelect P</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0373</MSGID>
+			<Text>Out of P</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0388</MSGID>
+			<Text>Vehicle remotely immobilized\nNot possible to start</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0389</MSGID>
+			<Text>No valid key found</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0390</MSGID>
+			<Text>Don't forget the key</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0391</MSGID>
+			<Text>Steering column lock fault\nStop safely</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0392</MSGID>
+			<Text>Steering column locked\nTry again</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0393</MSGID>
+			<Text>Steering column locked\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0394</MSGID>
+			<Text>Steering blocked\nMove steering wheel and try again</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0396</MSGID>
+			<Text>Remote key battery low</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0397</MSGID>
+			<Text>Wiper system malfunction</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0398</MSGID>
+			<Text>Rain sensor fault\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0400</MSGID>
+			<Text>Turn indicator malfunction</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0408</MSGID>
+			<Text>Brake light system fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0436</MSGID>
+			<Text>Power system fault\nCannot quick charge\nTry to slow charge</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0448</MSGID>
+			<Text>Exterior rearview mirrors failure\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0449</MSGID>
+			<Text>Exterior rearview mirrors folded\nDrive safely</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0468</MSGID>
+			<Text>ESC track</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0469</MSGID>
+			<Text>ESC race</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0470</MSGID>
+			<Text>Front brake wear\nPlease check</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0471</MSGID>
+			<Text>Rear brake wear\nPlease check</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0472</MSGID>
+			<Text>Front brake wear indicator failure\nPlease check</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0473</MSGID>
+			<Text>Rear brake wear indicator failure\nPlease check</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0512</MSGID>
+			<Text>Washer fluid level low</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0518</MSGID>
+			<Text>""</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0625</MSGID>
+			<Text>Tow mode active\nLong press hazard button to exit</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0629</MSGID>
+			<Text>Please take over</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0630</MSGID>
+			<Text>Please turn the steering wheel gently</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0696</MSGID>
+			<Text>Low voltage system abnormal\nLimited functionality in vehicle\nContact car service</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>0699</MSGID>
+			<Text>Low voltage system abnormal\nLimited functionality in vehicle\nContact car service</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1000</MSGID>
+			<Text>Rear fog light failure</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1001</MSGID>
+			<Text>Front or rear\nleft turn indicator fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1002</MSGID>
+			<Text>Front or rear\nright turn indicator fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1003</MSGID>
+			<Text>Front fog light fault</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1004</MSGID>
+			<Text>Parking lights are active\nSwitch to OFF or Auto to deactivate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1005</MSGID>
+			<Text>Parking lights are active\nSwitch to OFF or Auto to deactivate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1006</MSGID>
+			<Text>No valid key found</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1007</MSGID>
+			<Text>Parking brake\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1008</MSGID>
+			<Text>Turn on ignition\nto apply parking brake</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1009</MSGID>
+			<Text>Brake system\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1010</MSGID>
+			<Text>Start in progress\nPlease wait</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1011</MSGID>
+			<Text>Air quality improvement\nwill start in 10 seconds</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1012</MSGID>
+			<Text>Brake pedal characteristics changed</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1013</MSGID>
+			<Text>Exterior mirror defroster\ntemporarily unavailable</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1014</MSGID>
+			<Text>Not possible to open front doors\nFront wheels not straight\nPlease move the car or straighten\nthe steering wheel</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1015</MSGID>
+			<Text>Front wheels did not return\nto parked position</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1016</MSGID>
+			<Text>Do not turn steering wheel while front doors are open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1017</MSGID>
+			<Text>Do not turn steering wheel\nFront wheels are changing position</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1018</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1019</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1020</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1021</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1022</MSGID>
+			<Text>Door cannot open\nVehicle not at stand still</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1023</MSGID>
+			<Text>Doors cannot open\nFront wheels not straight</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1024</MSGID>
+			<Text>Doors cannot operate due to tilt\nPlease repark the car</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1025</MSGID>
+			<Text>Doors cannot operate due to tilt\nPlease repark the car</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1026</MSGID>
+			<Text>Door motor is overheating\nPlease close door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1027</MSGID>
+			<Text>Door motor is overheating\nPlease close door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1028</MSGID>
+			<Text>Door motor is overheating\nPlease close door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1029</MSGID>
+			<Text>Door motor is overheating\nPlease close door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1030</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1031</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1032</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1033</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1034</MSGID>
+			<Text>Door not fully closed or open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1035</MSGID>
+			<Text>Door not fully closed or open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1036</MSGID>
+			<Text>Door not fully closed or open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1037</MSGID>
+			<Text>Door not fully closed or open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1038</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1039</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1040</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1041</MSGID>
+			<Text>Door cannot operate\nPlease remove obstacle</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1042</MSGID>
+			<Text>Right side doors low battery\nTry open doors on left side\nor push to open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1043</MSGID>
+			<Text>Warning\nHood still open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1044</MSGID>
+			<Text>Vehicle will power down</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1045</MSGID>
+			<Text>Charging failure\nSee user manual</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1046</MSGID>
+			<Text>Overheated door motor\nPlease wait or use another door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1047</MSGID>
+			<Text>Overheated door motor\nPlease wait or use another door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1048</MSGID>
+			<Text>Overheated door motor\nPlease wait or use another door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1049</MSGID>
+			<Text>Overheated door motor\nPlease wait or use another door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1050</MSGID>
+			<Text>Propulsion deactivated\nPress brake pedal and\nselect D or R to activate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1051</MSGID>
+			<Text>Please turn the car OFF and ON\nIf the problem remains\ncontact service</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1052</MSGID>
+			<Text>Front wheels unable to move\nto previous position</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1053</MSGID>
+			<Text>Left side doors low battery\nTry open doors on right side\nor push to open</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1054</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1055</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1056</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1057</MSGID>
+			<Text>Door service needed\nTry another door or open manually</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1058</MSGID>
+			<Text>Door resetting\nDo not interfere with door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1059</MSGID>
+			<Text>Door resetting\nDo not interfere with door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1060</MSGID>
+			<Text>Door resetting\nDo not interfere with door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1061</MSGID>
+			<Text>Door resetting\nDo not interfere with door</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1062</MSGID>
+			<Text>Door position unknown\nClose to reset</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1063</MSGID>
+			<Text>Door position unknown\nClose to reset</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1064</MSGID>
+			<Text>Door position unknown\nClose to reset</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1065</MSGID>
+			<Text>Door position unknown\nClose to reset</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1066</MSGID>
+			<Text>Self-test activated</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1067</MSGID>
+			<Text>Self-test completed</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1068</MSGID>
+			<Text>Remove foot from brake</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1069</MSGID>
+			<Text>Self-test ongoing</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1070</MSGID>
+			<Text>Start is not allowed\nUser needs to re-tap to the NFC key</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1071</MSGID>
+			<Text>Service completed\nThe service mode has been exited</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1072</MSGID>
+			<Text>The vehicle has been\nemergency unlocked by NFC\nWorkshop service needed</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1073</MSGID>
+			<Text>Do you want to activate\nrear brake pad service mode?</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1074</MSGID>
+			<Text>Rear brake pad service mode\nService ongoing</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1075</MSGID>
+			<Text>Post impact braking unavailable</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1076</MSGID>
+			<Text>Rear brake pad service\nnot completed</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1077</MSGID>
+			<Text>Steering Assistance\nTemporary reduced</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1078</MSGID>
+			<Text>Brake system \nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1079</MSGID>
+			<Text>Brake pedal malfunction\nService required</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1080</MSGID>
+			<Text>Brake Pedal failure\nAutomatic braking initiated\nSteer to the side</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1081</MSGID>
+			<Text>Stop vehicle immediately</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1082</MSGID>
+			<Text>Auto brake will now start</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1500</MSGID>
+			<Text>Dismiss</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1501</MSGID>
+			<Text>mph</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1502</MSGID>
+			<Text>km/h</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1503</MSGID>
+			<Text>mi</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1504</MSGID>
+			<Text>km</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1505</MSGID>
+			<Text>BRAKE!</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1506</MSGID>
+			<Text>Yes</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1507</MSGID>
+			<Text>No</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1508</MSGID>
+			<Text>2 wheel</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1509</MSGID>
+			<Text>4 wheel</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1512</MSGID>
+			<Text>mph</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1513</MSGID>
+			<Text>km/h</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1514</MSGID>
+			<Text>Settings</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1515</MSGID>
+			<Text>Units</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1516</MSGID>
+			<Text>US (miles, °F)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1517</MSGID>
+			<Text>Imperial (miles, °C)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1518</MSGID>
+			<Text>Metric (kilometers, °C)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1519</MSGID>
+			<Text>Wipers</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1520</MSGID>
+			<Text>Wiper service position</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1521</MSGID>
+			<Text>Activate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1522</MSGID>
+			<Text>Deactivate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1523</MSGID>
+			<Text>Notifications</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1524</MSGID>
+			<Text>Car Power Off</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1525</MSGID>
+			<Text>Car Power Off</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1526</MSGID>
+			<Text>Gear must be set to "P"\nto turn off the car</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1527</MSGID>
+			<Text>Power Off</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1528</MSGID>
+			<Text>Are you sure you want to turn off the car?\n\n(To turn on power again press\nthe brake pedal)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1529</MSGID>
+			<Text>Power Off</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1530</MSGID>
+			<Text>Cancel</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1531</MSGID>
+			<Text>Child Lock</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1532</MSGID>
+			<Text>Lock</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1533</MSGID>
+			<Text>Unlock</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1534</MSGID>
+			<Text>Exterior Lights</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1535</MSGID>
+			<Text>Rear fog</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1536</MSGID>
+			<Text>Headlights</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1537</MSGID>
+			<Text>Mirrors</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1538</MSGID>
+			<Text>Adjust</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1539</MSGID>
+			<Text>Adjust left</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1540</MSGID>
+			<Text>Adjust right</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1541</MSGID>
+			<Text>Right Mirror Adjustment</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1542</MSGID>
+			<Text>Left Mirror Adjustment</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1543</MSGID>
+			<Text>Fold</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1544</MSGID>
+			<Text>Fold mirrors</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1545</MSGID>
+			<Text>Unfold mirrors</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1546</MSGID>
+			<Text>Defrost</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1547</MSGID>
+			<Text>Mirror defrost</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1548</MSGID>
+			<Text>Activate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1549</MSGID>
+			<Text>Mirror defrost is activate for 15 min</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1550</MSGID>
+			<Text>Hood</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1551</MSGID>
+			<Text>Hood</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1552</MSGID>
+			<Text>Press twice to unlock hood</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1553</MSGID>
+			<Text>Unlock</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1554</MSGID>
+			<Text>Press again to fully unlock</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1555</MSGID>
+			<Text>Hood fully unlocked</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1556</MSGID>
+			<Text>Climate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1557</MSGID>
+			<Text>Climate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1558</MSGID>
+			<Text>Temperature</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1559</MSGID>
+			<Text>Auto fan</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1560</MSGID>
+			<Text>OFF</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1561</MSGID>
+			<Text>°F</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1562</MSGID>
+			<Text>°C</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1563</MSGID>
+			<Text>HI</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1564</MSGID>
+			<Text>LOW</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1565</MSGID>
+			<Text>OFF</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1566</MSGID>
+			<Text>Max defroster active</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1567</MSGID>
+			<Text>Deactivate</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1568</MSGID>
+			<Text>°F</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1569</MSGID>
+			<Text>°C</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1570</MSGID>
+			<Text>Hi</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1571</MSGID>
+			<Text>LOW</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1572</MSGID>
+			<Text>OFF</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1573</MSGID>
+			<Text>Manual</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1574</MSGID>
+			<Text>Auto</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1575</MSGID>
+			<Text>Stale</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1576</MSGID>
+			<Text>Range</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1577</MSGID>
+			<Text>km</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1578</MSGID>
+			<Text>mi</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1579</MSGID>
+			<Text>Time left</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1580</MSGID>
+			<Text>h</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1581</MSGID>
+			<Text>min</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1582</MSGID>
+			<Text>Fully charged</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1583</MSGID>
+			<Text>%</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1584</MSGID>
+			<Text>+</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1585</MSGID>
+			<Text>km/hr</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1586</MSGID>
+			<Text>mi/hr</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1587</MSGID>
+			<Text>V</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1588</MSGID>
+			<Text>A</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1589</MSGID>
+			<Text>kW</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1590</MSGID>
+			<Text>Charging</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1591</MSGID>
+			<Text>Awaiting charge</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1592</MSGID>
+			<Text>Preheating</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1593</MSGID>
+			<Text>Charging complete</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1594</MSGID>
+			<Text>Charging failure</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1595</MSGID>
+			<Text>Connected</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1596</MSGID>
+			<Text>Connected (DC)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1597</MSGID>
+			<Text>Connection failure</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1598</MSGID>
+			<Text>Connection failure (DC)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1600</MSGID>
+			<Text>kW</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1601</MSGID>
+			<Text>Car successfully powered off\n\n(To turn on power again press\nthe brake pedal)</Text>
+		</MasterMessageAdvanced>
+		<MasterMessageAdvanced>
+			<MSGID>1602</MSGID>
+			<Text>Gear must be set to “P”</Text>
+		</MasterMessageAdvanced>
+	</MasterMessages>
+	<TranslationMessages>
+		<Language Name="English_US" Code="en-US">
+			<TranslationMessage>
+				<MSGID>0031</MSGID>
+				<Text>Keep safe distance</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0032</MSGID>
+				<Text>Auto brake was activated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0093</MSGID>
+				<Text>Low voltage warning\nFunctionality temporarily reduced</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0094</MSGID>
+				<Text>High voltage converting\nto low voltage failure\nStop safely</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0095</MSGID>
+				<Text>12 V battery\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0096</MSGID>
+				<Text>Low voltage battery level low</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0097</MSGID>
+				<Text>Low voltage battery level low\nPower save mode soon entered</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0098</MSGID>
+				<Text>Factory mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0099</MSGID>
+				<Text>Factory mode paused</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0100</MSGID>
+				<Text>Transport mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0101</MSGID>
+				<Text>Transport mode paused</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0102</MSGID>
+				<Text>Normal mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0103</MSGID>
+				<Text>Crash mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0104</MSGID>
+				<Text>Entering dyno mode\n\nContinue?</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0105</MSGID>
+				<Text>Mode not intended for road driving\nSafety functions will be disabled\n\nContinue?</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0106</MSGID>
+				<Text>Choose dynamometer type</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0107</MSGID>
+				<Text>Dyno mode active\nMode not intended for road driving\nSafety functions will be disabled\nPress hazard switch twice to exit</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0108</MSGID>
+				<Text>No valid key found</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0111</MSGID>
+				<Text>Autostart\nVehicle running</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0112</MSGID>
+				<Text>Ignition ON</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0113</MSGID>
+				<Text>Select P or N\nto start the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0114</MSGID>
+				<Text>Select N to start the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0115</MSGID>
+				<Text>Press clutch pedal\nto start the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0116</MSGID>
+				<Text>Press brake pedal\nto start the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0117</MSGID>
+				<Text>Vehicle turn off\nTurn and hold start knob</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0118</MSGID>
+				<Text>Vehicle turn off\nPress and hold start button</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0119</MSGID>
+				<Text>Vehicle start \nTurn start knob</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0120</MSGID>
+				<Text>Press start button\nto start the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0121</MSGID>
+				<Text>Vehicle start\nSystem check\nPlease wait</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0122</MSGID>
+				<Text>Select P to turn off the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0123</MSGID>
+				<Text>Vehicle turn off\nTurn and hold start knob</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0124</MSGID>
+				<Text>Press and hold start button\nto turn off the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0125</MSGID>
+				<Text>Charge cable connected\nRemove before start</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0126</MSGID>
+				<Text>Charge cable not removed\nTurn and hold the start knob 7s\nto start the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0127</MSGID>
+				<Text>Charge cable not removed\nPress and hold the start button 7s\nto start the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0128</MSGID>
+				<Text>Charge Cable connected\nRemove before start</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0151</MSGID>
+				<Text>Coolant system\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0152</MSGID>
+				<Text>Electric drive system\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>01528</MSGID>
+				<Text>Are you sure you want to turn off the car?\n\n(To turn on power again press\nthe brake pedal)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0167</MSGID>
+				<Text>Home safe light activated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0168</MSGID>
+				<Text>AFS system fault\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0169</MSGID>
+				<Text>Rear position light fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0170</MSGID>
+				<Text>Front high beam fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0171</MSGID>
+				<Text>Front low beam fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0172</MSGID>
+				<Text>Adaptive bending light\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0173</MSGID>
+				<Text>Head lamp levelling\nSystem fault\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0174</MSGID>
+				<Text>Left tourist light activated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0175</MSGID>
+				<Text>Right tourist light activated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0176</MSGID>
+				<Text>Brake fault\nStop safely</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0177</MSGID>
+				<Text>ABS and ESC\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0178</MSGID>
+				<Text>ABS and ESC\ntemporarily unavailable</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0179</MSGID>
+				<Text>ESC\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0180</MSGID>
+				<Text>ESC temporarily unavailable</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0181</MSGID>
+				<Text>Traction control temporarily\nunavailable</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0183</MSGID>
+				<Text>Brake system\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0184</MSGID>
+				<Text>Auto hold\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0185</MSGID>
+				<Text>Press brake pedal\nto disable auto hold</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0186</MSGID>
+				<Text>Fasten seat belt or close driver door\nto enable auto hold</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0187</MSGID>
+				<Text>Press Brake\nUnable to automatically hold vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0188</MSGID>
+				<Text>Auto brake activated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0189</MSGID>
+				<Text>Parking brake not released</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0190</MSGID>
+				<Text>Parking brake cannot hold vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0191</MSGID>
+				<Text>Parking brake not fully released</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0192</MSGID>
+				<Text>Parking brake not applied</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0193</MSGID>
+				<Text>Press brake pedal\nto release parking brake</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0194</MSGID>
+				<Text>Parking brake\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0195</MSGID>
+				<Text>Parking brake\ntemporarily unavailable</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0196</MSGID>
+				<Text>Use parking brake control\nto release parking brake</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0197</MSGID>
+				<Text>Parking brake applied\nautomatic adjustments</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0198</MSGID>
+				<Text>Test mode activated\nParking brake roller bench</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0199</MSGID>
+				<Text>Release parking brake or\nfasten seat belt and close door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0200</MSGID>
+				<Text>Parking brake overheated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0206</MSGID>
+				<Text>Check brake fluid level</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0207</MSGID>
+				<Text>Current drive mode\nRestricted vehicle stability</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0208</MSGID>
+				<Text>Steering Assistance\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0209</MSGID>
+				<Text>Steering Malfunction\nStop Safely</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0210</MSGID>
+				<Text>Steering Assistance\nService urgent</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0211</MSGID>
+				<Text>Steering Assistance\nTemporary reduced</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0248</MSGID>
+				<Text>Book time for maintenance</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0249</MSGID>
+				<Text>Time for regular maintenance</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0250</MSGID>
+				<Text>Maintenance overdue</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0260</MSGID>
+				<Text>Do not connect two cables</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0265</MSGID>
+				<Text>High voltage battery failure\nStop Safely\nImmediately leave the vehicle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0266</MSGID>
+				<Text>High voltage system self-check\nPlease wait</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0267</MSGID>
+				<Text>Power system fault\nDo not drive\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0268</MSGID>
+				<Text>Power system fault\nStop safely\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0269</MSGID>
+				<Text>E-drive system fault\nStop safely\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0270</MSGID>
+				<Text>Power system fault\nCannot start again\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0271</MSGID>
+				<Text>Power limited\nDrive carefully\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0272</MSGID>
+				<Text>E-drive system harsh behavior\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0273</MSGID>
+				<Text>Power system fault\nCannot charge\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0274</MSGID>
+				<Text>Power system fault\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0283</MSGID>
+				<Text>High voltage battery fault\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0288</MSGID>
+				<Text>SRS\nService urgent</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0323</MSGID>
+				<Text>Apply brakes to turn off e-pedal</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0324</MSGID>
+				<Text>E-pedal system unavailable\nSystem fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0325</MSGID>
+				<Text>E-pedal system unavailable</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0336</MSGID>
+				<Text>Press brake\nto release gear shift</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0337</MSGID>
+				<Text>Gear shift\nMovement to manual gear\nnot allowed</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0338</MSGID>
+				<Text>Next engine start may\nnot be possible</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0339</MSGID>
+				<Text>Vehicle movement direction\ncannot be changed</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0340</MSGID>
+				<Text>Gear shift\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0341</MSGID>
+				<Text>Manual mode activated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0344</MSGID>
+				<Text>Please return shift\nto its initial state</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0345</MSGID>
+				<Text>Shift to D\nto enable manual mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0346</MSGID>
+				<Text>Please stop pushing P-button</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0350</MSGID>
+				<Text>Transmission malfunction\nService urgently required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0351</MSGID>
+				<Text>Transmission malfunction\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0352</MSGID>
+				<Text>Transmission malfunction\nStop safely\nVehicle shall be towed to service</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0353</MSGID>
+				<Text>Gear selector malfunction\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0354</MSGID>
+				<Text>Gearbox\nOil temp high\nStop safely</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0355</MSGID>
+				<Text>Gearbox\nOil temp high</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0356</MSGID>
+				<Text>Transmission\nAcceleration performance low</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0357</MSGID>
+				<Text>Transmission adjusted</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0358</MSGID>
+				<Text>Transmission overspeed\nPress brake to decrease speed</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0359</MSGID>
+				<Text>Transmission\nAdaptation mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0360</MSGID>
+				<Text>Gearbox\nShift indication mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0361</MSGID>
+				<Text>Gearbox\nShift indication mode</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0362</MSGID>
+				<Text>Transmission overheated\nPark safely</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0363</MSGID>
+				<Text>Transmission cooling\nLet engine run</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0364</MSGID>
+				<Text>Transmission performance reduced\nReverse not available</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0365</MSGID>
+				<Text>Transmission performance reduced\nAvoid stopping uphill</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0366</MSGID>
+				<Text>Transmission performance reduced\nAvoid hill driving</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0367</MSGID>
+				<Text>Transmission performance reduced</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0368</MSGID>
+				<Text>Check gear shift position</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0369</MSGID>
+				<Text>Shift lock override</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0370</MSGID>
+				<Text>Clutch overspeed\nSlow down</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0371</MSGID>
+				<Text>Gear shift not possible\nStop safely\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0372</MSGID>
+				<Text>Rolling possible in N\nSelect P</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0373</MSGID>
+				<Text>Out of P</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0388</MSGID>
+				<Text>Vehicle remotely immobilized\nNot possible to start</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0389</MSGID>
+				<Text>No valid key found</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0390</MSGID>
+				<Text>Don't forget the key</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0391</MSGID>
+				<Text>Steering column lock fault\nStop safely</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0392</MSGID>
+				<Text>Steering column locked\nTry again</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0393</MSGID>
+				<Text>Steering column locked\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0394</MSGID>
+				<Text>Steering blocked\nMove steering wheel and try again</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0396</MSGID>
+				<Text>Remote key battery low</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0397</MSGID>
+				<Text>Wiper system malfunction</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0398</MSGID>
+				<Text>Rain sensor fault\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0400</MSGID>
+				<Text>Turn indicator malfunction</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0408</MSGID>
+				<Text>Brake light system fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0436</MSGID>
+				<Text>Power system fault\nCannot quick charge\nTry to slow charge</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0448</MSGID>
+				<Text>Exterior rearview mirrors failure\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0449</MSGID>
+				<Text>Exterior rearview mirrors folded\nDrive safely</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0468</MSGID>
+				<Text>ESC track</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0469</MSGID>
+				<Text>ESC race</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0470</MSGID>
+				<Text>Front brake wear\nPlease check</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0471</MSGID>
+				<Text>Rear brake wear\nPlease check</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0472</MSGID>
+				<Text>Front brake wear indicator failure\nPlease check</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0473</MSGID>
+				<Text>Rear brake wear indicator failure\nPlease check</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0512</MSGID>
+				<Text>Washer fluid level low</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0518</MSGID>
+				<Text>""</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0625</MSGID>
+				<Text>Tow mode active\nLong press hazard button to exit</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0629</MSGID>
+				<Text>Please take over</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0630</MSGID>
+				<Text>Please turn the steering wheel gently</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0696</MSGID>
+				<Text>Low voltage system abnormal\nLimited functionality in vehicle\nContact car service</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>0699</MSGID>
+				<Text>Low voltage system abnormal\nLimited functionality in vehicle\nContact car service</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1000</MSGID>
+				<Text>Rear fog light failure</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1001</MSGID>
+				<Text>Front or rear\nleft turn indicator fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1002</MSGID>
+				<Text>Front or rear\nright turn indicator fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1003</MSGID>
+				<Text>Front fog light fault</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1004</MSGID>
+				<Text>Parking lights are active\nSwitch to OFF or Auto to deactivate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1005</MSGID>
+				<Text>Parking lights are active\nSwitch to OFF or Auto to deactivate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1006</MSGID>
+				<Text>No valid key found</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1007</MSGID>
+				<Text>Parking brake\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1008</MSGID>
+				<Text>Turn on ignition\nto apply parking brake</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1009</MSGID>
+				<Text>Brake system\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1010</MSGID>
+				<Text>Start in progress\nPlease wait</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1011</MSGID>
+				<Text>Air quality improvement\nwill start in 10 seconds</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1012</MSGID>
+				<Text>Brake pedal characteristics changed</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1013</MSGID>
+				<Text>Exterior mirror defroster\ntemporarily unavailable</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1014</MSGID>
+				<Text>Not possible to open front doors\nFront wheels not straight\nPlease move the car or straighten\nthe steering wheel</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1015</MSGID>
+				<Text>Front wheels did not return\nto parked position</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1016</MSGID>
+				<Text>Do not turn steering wheel while\nfront doors are open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1017</MSGID>
+				<Text>Do not turn steering wheel\nFront wheels are changing position</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1018</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1019</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1020</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1021</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1022</MSGID>
+				<Text>Door cannot open\nVehicle not at stand still</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1023</MSGID>
+				<Text>Doors cannot open\nFront wheels not straight</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1024</MSGID>
+				<Text> Doors cannot operate due to tilt\nPush manually to open and close</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1025</MSGID>
+				<Text>Doors cannot operate due to tilt\nPlease repark the car</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1026</MSGID>
+				<Text>Door motor is overheating\nPlease close door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1027</MSGID>
+				<Text>Door motor is overheating\nPlease close door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1028</MSGID>
+				<Text>Door motor is overheating\nPlease close door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1029</MSGID>
+				<Text>Door motor is overheating\nPlease close door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1030</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1031</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1032</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1033</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1034</MSGID>
+				<Text>Door not fully closed or open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1035</MSGID>
+				<Text>Door not fully closed or open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1036</MSGID>
+				<Text>Door not fully closed or open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1037</MSGID>
+				<Text>Door not fully closed or open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1038</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1039</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1040</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1041</MSGID>
+				<Text>Door cannot operate\nPlease remove obstacle</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1042</MSGID>
+				<Text>Right side doors low battery\nTry open doors on left side\nor push to open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1043</MSGID>
+				<Text>Warning\nHood still open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1044</MSGID>
+				<Text>Vehicle will power down</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1045</MSGID>
+				<Text>Charging failure\nSee user manual</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1046</MSGID>
+				<Text>Overheated door motor\nPlease wait or use another door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1047</MSGID>
+				<Text>Overheated door motor\nPlease wait or use another door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1048</MSGID>
+				<Text>Overheated door motor\nPlease wait or use another door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1049</MSGID>
+				<Text>Overheated door motor\nPlease wait or use another door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1050</MSGID>
+				<Text>Propulsion deactivated\nPress brake pedal and\nselect D or R to activate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1051</MSGID>
+				<Text>Please turn the car OFF and ON\nIf the problem remains\ncontact service</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1052</MSGID>
+				<Text>Front wheels unable to move\nto previous position</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1053</MSGID>
+				<Text>Left side doors low battery\nTry open doors on right side\nor push to open</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1054</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1055</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1056</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1057</MSGID>
+				<Text>Door service needed\nTry another door or open manually</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1058</MSGID>
+				<Text>Door resetting\nDo not interfere with door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1059</MSGID>
+				<Text>Door resetting\nDo not interfere with door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1060</MSGID>
+				<Text>Door resetting\nDo not interfere with door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1061</MSGID>
+				<Text>Door resetting\nDo not interfere with door</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1062</MSGID>
+				<Text>Door position unknown\nClose to reset</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1063</MSGID>
+				<Text>Door position unknown\nClose to reset</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1064</MSGID>
+				<Text>Door position unknown\nClose to reset</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1065</MSGID>
+				<Text>Door position unknown\nClose to reset</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1066</MSGID>
+				<Text>Self-test activated</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1067</MSGID>
+				<Text>Self-test completed</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1068</MSGID>
+				<Text>Remove foot from brake</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1069</MSGID>
+				<Text>Self-test ongoing</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1070</MSGID>
+				<Text>Start is not allowed\nUser needs to re-tap to the NFC key</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1071</MSGID>
+				<Text>Service completed\nThe service mode has been exited</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1072</MSGID>
+				<Text>The vehicle has been\nemergency unlocked by NFC\nWorkshop service needed</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1073</MSGID>
+				<Text>Do you want to activate\nrear brake pad service mode?</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1074</MSGID>
+				<Text>Rear brake pad service mode\nService ongoing</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1075</MSGID>
+				<Text>Post impact braking unavailable</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1076</MSGID>
+				<Text>Rear brake pad service\nnot completed</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1077</MSGID>
+				<Text>Steering Assistance\nTemporary reduced</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1078</MSGID>
+				<Text>Brake system \nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1079</MSGID>
+				<Text>Brake pedal malfunction\nService required</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1080</MSGID>
+				<Text>Brake Pedal failure\nAutomatic braking initiated\nSteer to the side</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1081</MSGID>
+				<Text>Stop vehicle immediately</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1082</MSGID>
+				<Text>Auto brake will now start</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1500</MSGID>
+				<Text>Dismiss</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1501</MSGID>
+				<Text>mph</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1502</MSGID>
+				<Text>km/h</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1503</MSGID>
+				<Text>mi</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1504</MSGID>
+				<Text>km</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1505</MSGID>
+				<Text>BRAKE!</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1506</MSGID>
+				<Text>Yes</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1507</MSGID>
+				<Text>No</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1508</MSGID>
+				<Text>2 wheel</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1509</MSGID>
+				<Text>4 wheel</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1512</MSGID>
+				<Text>mph</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1513</MSGID>
+				<Text>km/h</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1514</MSGID>
+				<Text>Settings</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1515</MSGID>
+				<Text>Units</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1516</MSGID>
+				<Text>US (miles, °F)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1517</MSGID>
+				<Text>Imperial (miles, °C)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1518</MSGID>
+				<Text>Metric (kilometers, °C)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1519</MSGID>
+				<Text>Wipers</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1520</MSGID>
+				<Text>Wiper service position</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1521</MSGID>
+				<Text>Activate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1522</MSGID>
+				<Text>Deactivate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1523</MSGID>
+				<Text>Notifications</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1524</MSGID>
+				<Text>Car Power Off</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1525</MSGID>
+				<Text>Car Power Off</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1526</MSGID>
+				<Text>Gear must be set to "P"\nto turn off the car</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1527</MSGID>
+				<Text>Power Off</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1528</MSGID>
+				<Text>Are you sure you want to turn off the car?\n\n(To turn on power again press\nthe brake pedal)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1529</MSGID>
+				<Text>Power Off</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1530</MSGID>
+				<Text>Cancel</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1531</MSGID>
+				<Text>Child Lock</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1532</MSGID>
+				<Text>Lock</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1533</MSGID>
+				<Text>Unlock</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1534</MSGID>
+				<Text>Exterior Lights</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1535</MSGID>
+				<Text>Rear fog</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1536</MSGID>
+				<Text>Headlights</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1537</MSGID>
+				<Text>Mirrors</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1538</MSGID>
+				<Text>Adjust</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1539</MSGID>
+				<Text>Adjust left</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1540</MSGID>
+				<Text>Adjust right</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1541</MSGID>
+				<Text>Right Mirror Adjustment</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1542</MSGID>
+				<Text>Left Mirror Adjustment</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1543</MSGID>
+				<Text>Fold</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1544</MSGID>
+				<Text>Fold mirrors</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1545</MSGID>
+				<Text>Unfold mirrors</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1546</MSGID>
+				<Text>Defrost</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1547</MSGID>
+				<Text>Mirror defrost</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1548</MSGID>
+				<Text>Activate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1549</MSGID>
+				<Text>Mirror defrost is activate for 15 min</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1550</MSGID>
+				<Text>Hood</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1551</MSGID>
+				<Text>Hood</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1552</MSGID>
+				<Text>Press twice to unlock hood</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1553</MSGID>
+				<Text>Unlock</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1554</MSGID>
+				<Text>Press again to fully unlock</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1555</MSGID>
+				<Text>Hood fully unlocked</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1556</MSGID>
+				<Text>Climate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1557</MSGID>
+				<Text>Climate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1558</MSGID>
+				<Text>Temperature</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1559</MSGID>
+				<Text>Auto fan</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1560</MSGID>
+				<Text>OFF</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1561</MSGID>
+				<Text>°F</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1562</MSGID>
+				<Text>°C</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1563</MSGID>
+				<Text>HI</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1564</MSGID>
+				<Text>LOW</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1565</MSGID>
+				<Text>OFF</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1566</MSGID>
+				<Text>Max defroster active</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1567</MSGID>
+				<Text>Deactivate</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1568</MSGID>
+				<Text>°F</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1569</MSGID>
+				<Text>°C</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1570</MSGID>
+				<Text>Hi</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1571</MSGID>
+				<Text>LOW</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1572</MSGID>
+				<Text>OFF</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1573</MSGID>
+				<Text>Manual</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1574</MSGID>
+				<Text>Auto</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1575</MSGID>
+				<Text>Stale</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1576</MSGID>
+				<Text>Range</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1577</MSGID>
+				<Text>km</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1578</MSGID>
+				<Text>mi</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1579</MSGID>
+				<Text>Time left</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1580</MSGID>
+				<Text>h</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1581</MSGID>
+				<Text>min</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1582</MSGID>
+				<Text>Fully charged</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1583</MSGID>
+				<Text>%</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1584</MSGID>
+				<Text>+</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1585</MSGID>
+				<Text>km/hr</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1586</MSGID>
+				<Text>mi/hr</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1587</MSGID>
+				<Text>V</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1588</MSGID>
+				<Text>A</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1589</MSGID>
+				<Text>kW</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1590</MSGID>
+				<Text>Charging</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1591</MSGID>
+				<Text>Awaiting charge</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1592</MSGID>
+				<Text>Preheating</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1593</MSGID>
+				<Text>Charging complete</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1594</MSGID>
+				<Text>Charging failure</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1595</MSGID>
+				<Text>Connected</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1596</MSGID>
+				<Text>Connected (DC)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1597</MSGID>
+				<Text>Connection failure</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1598</MSGID>
+				<Text>Connection failure (DC)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1600</MSGID>
+				<Text>kW</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1601</MSGID>
+				<Text>Car successfully powered off\n\n(To turn on power again press\nthe brake pedal)</Text>
+			</TranslationMessage>
+			<TranslationMessage>
+				<MSGID>1602</MSGID>
+				<Text>Gear must be set to “P”</Text>
+			</TranslationMessage>
+		</Language>
+	</TranslationMessages>
+</TextExchangeFormat>
