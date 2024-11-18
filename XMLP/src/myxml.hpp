@@ -1,7 +1,7 @@
 //#pragma once
 #include <iostream>
 #include <string>
-#include <variant>
+
 #include "..\include\pugixml-1.14\src\pugixml.hpp"
 
 

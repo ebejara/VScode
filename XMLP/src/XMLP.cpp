@@ -27,22 +27,24 @@ int main(int argc, char *argv[])
       //  std::cout << "Filename: " << filename << std::endl;
     }
     else{
-        std::cout<<"Inside else: " << *argv[3]<< std::endl;
-        for(int i = 1; i <= argc; i++){
-            if( **argv == '-' ){
-                switch (*argv[i+1]){
+            std::cout<<"Inside else "<< std::endl;
+        for(int i = 0; i <= argc; i++){
+            std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
+           
+            if (argv[i] == "r")
+               std::cout << "match"<< std::endl;
+              /*  switch (argv[i]){
          
-                case 'o':
-                    //*filename = argv[i];
+                case "-o":
+                    *filename = argv[i];
                     std::cout << *argv[i]<< std::endl;
                 break;
                 
-                case 'h':
+                case "-h":
                    std::cout << "Helptext" << std::endl;
                 break;
-                }
-            }
-            ++(*argv);
+                }*/
+            
         }
     }
      std::cout << "Filename is  " << filename << std::endl;
