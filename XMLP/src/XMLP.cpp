@@ -9,6 +9,7 @@
 #include <iostream>
 #include "..\include\pugixml-1.14\src\pugixml.hpp"
 #include "myxml.hpp"
+#include "XMLP_Texts.hpp"
 //using namespace std;
 
 
@@ -17,38 +18,52 @@ int main(int argc, char *argv[])
 {
     Myxmldoc xlang;
     char* filename[100];
+    int notID = 0;
+    int loadResult = -1;
   //std::string filename;
 
     if (argc == 1){
-	    std::cout << "Please XML-file name (incl. path) " << std::endl;
+	      std::cout << "Please XML-file name (incl. path) " << std::endl;
         std::cout << "If no file name is given, then default XML file will be loaded." << std::endl;
         std::cout << "XMLP>"; 
         std::cin >> *filename;  
       //  std::cout << "Filename: " << filename << std::endl;
     }
     else{
-            std::cout<<"Inside else "<< std::endl;
-        for(int i = 0; i <= argc; i++){
-            std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
-           
-            if (argv[i] == "r")
-               std::cout << "match"<< std::endl;
-              /*  switch (argv[i]){
-         
-                case "-o":
-                    *filename = argv[i];
-                    std::cout << *argv[i]<< std::endl;
-                break;
-                
-                case "-h":
-                   std::cout << "Helptext" << std::endl;
-                break;
-                }*/
+        std::cout<<"Inside else "<< std::endl;
+        for(int i = 1; i <= argc; ++i){
+           //std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
+           // std::cout << "i = " << i << std::endl;
+          if (!strcmp(argv[i],"-r")){ //Compare. O means compare is OK
+               notID = atoi(argv[i+1]);
+               if (loadResult != 0){
+                  std::cout << NO_FILE << std::endl;
+                  PROMT// defined MACRO
+                }
+               else if(loadResult == 0 && notID > 0){
+                   std::cout << TRY_REM_ID << notID<< std::endl;
+                   PROMT // defined MACRO
+                }
+            }
+          else if(!strcmp(argv[i],"-o")){
+                  *filename = (argv[i + 1]);
+                  std::cout << TRY_FILE << *filename<< std::endl;
+                  loadResult = xlang.load_file(*filename);
+                  PROMT // defined MACRO
+            }
+            else if (!strcmp(argv[i],"-i")){
+
+            }
             
         }
-    }
-     std::cout << "Filename is  " << filename << std::endl;
-     xlang.load_file(*filename);
+      }
+
+    while(getchar() != '^d')
+    {
+      std::string str;
+       std::cin >> str;
+    }    
+     
 	//std::cout << "Load file Error code: " << xlang.load_sts_code(); 
     //std::cout << "  Description: " << xlang.load_sts_descr() << std::endl;
     //std::cout << std::endl;

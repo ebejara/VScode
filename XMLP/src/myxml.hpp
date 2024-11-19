@@ -1,9 +1,8 @@
 //#pragma once
 #include <iostream>
 #include <string>
-
 #include "..\include\pugixml-1.14\src\pugixml.hpp"
-
+#include "XMLP_Texts.hpp"
 
 class Myxmldoc
 {
@@ -28,14 +27,15 @@ class Myxmldoc
      
  int load_file(char *filename){
     pugi::xml_parse_result result = doc.load_file(filename);
-    std::cout << "Error code: " << load_sts_code(result) << std::endl;
-    std::cout << "Error description: " << load_sts_descr(result) << std::endl;
+    //std::cout << "Error code: " << load_sts_code(result) << std::endl;
+    //std::cout << "Error description: " << load_sts_descr(result) << std::endl;
     if (load_sts_code(result) == 0){
-      std::cout << "XML file loaded"<< std::endl;
+      std::cout << FILE_LOADED << std::endl;
     }
-
-      std::cout << "Debug text: "<< filename <<std::endl;
-    return 0;
+    else{
+      std::cout << FILE_LOAD_ERROR << load_sts_descr(result) << std::endl;
+    }
+    return load_sts_code(result);
  }  
       
  /* Returns the error code of the XML-loading process*/
