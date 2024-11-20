@@ -27,8 +27,10 @@ int main(int argc, char *argv[])
     
       if (argc == 1){
           std::cout << "Please enter XML-file name (incl. path) " << std::endl;
-          std::cout << "XMLP>"; 
-          std::cin >> *filename;  
+          PROMT
+          std::cin >> *filename;
+          PROMT
+            
         //  std::cout << "Filename: " << filename << std::endl;
       }
       else{
@@ -56,7 +58,8 @@ int main(int argc, char *argv[])
               else if (!strcmp(argv[i],"-i")){
 
               }
-          }
+          } // for
+          std::cout << "After for" <<  endl;
       }
       //std::cout << "Load file Error code: " << xlang.load_sts_code(); 
       //std::cout << "  Description: " << xlang.load_sts_descr() << std::endl;
@@ -73,7 +76,9 @@ int main(int argc, char *argv[])
    do{ // while loop
 
       std::cin.getline(cstr,256);
+      PROMT
       std::cout << "debug text after getline" << cstr << endl;
+      PROMT
    
     } 
     while(1);
