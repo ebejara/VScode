@@ -5,3 +5,6 @@
 #define ID_NOT_INT "XMLP> the input parameter is not an integer. Not ID should be and Integer."
 #define FILE_LOADED "XMLP> XML file loaded"
 #define FILE_LOAD_ERROR "XMLP> XML failed to load. Reason: "
+#define REM_ID_WRONG_ID "XMLP> Notification ID not valid. Has to be an integer number greater than 0. Command '-r ' is ignored"
+#define FILE_NOT_EXIST "XMLP> File does not exist. Try loading an XML language file using command: -o <path\filename"
+#define TEXT_MISSING "Missing Notification/Menu_item text. Add text using command: -a <Textstring>"

@@ -8,20 +8,23 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
 #include "..\include\pugixml-1.14\src\pugixml.hpp"
 #include "myxml.hpp"
 #include "XMLP_Texts.hpp"
 using namespace std;
 
-
+bool exists_test0 (const std::string& name);
 
 int main(int argc, char *argv[]) 
 {
     Myxmldoc xlang;
     char* filename[256];
+    const char* txtstr;
     char cstr[256];
     std::string exitstr = "exit";
-    int notID = 0;
+    int remNotID = 0;
+    int addNotID = 0;
     int loadResult = -1;
     //std::string filename;
     
@@ -36,30 +39,63 @@ int main(int argc, char *argv[])
       else{
           std::cout<<"Inside else "<< std::endl;
           for(int i = 1; i <= argc; ++i){
-            //std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
-            // std::cout << "i = " << i << std::endl;
-            if (!strcmp(argv[i],"-r")){ //Compare. O means compare is OK
-                notID = atoi(argv[i+1]);
-                if (loadResult != 0){
+            std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
+             std::cout << "i = " << i << std::endl;
+            if (strcmp(argv[i],"-r") == 0 && argc > i){ //Compare. O means compare is OK
+                std::cout << "Inside -r. argv[i + 1] is: " << argv[i+1]  << std::endl;
+                remNotID = atoi(argv[i+1]);
+                std::cout << "remNotID: " << remNotID  << std::endl;
+                if (remNotID <= 0){
+                    std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
+                    PROMT
+                  }
+                /*if (loadResult != 0){
                     std::cout << NO_FILE << std::endl;
                     PROMT// defined MACRO
                   }
                 else if(loadResult == 0 && notID > 0){
                     std::cout << TRY_REM_ID << notID<< std::endl;
                     PROMT // defined MACRO
-                  }
+                  }*/
+                 ++i;
               }
-            else if(!strcmp(argv[i],"-o")){
+            else if(strcmp(argv[i],"-o") == 0 && argc > i){
                     *filename = (argv[i + 1]);
-                    std::cout << TRY_FILE << *filename<< std::endl;
-                    loadResult = xlang.load_file(*filename);
-                    PROMT // defined MACRO
+                    std::cout << "Filename is: " << *filename <<  endl;
+                    if(!exists_test0 (*filename)){
+                       std::cout << FILE_NOT_EXIST <<std::endl;
+                       PROMT
+                    }
+                   // std::cout << TRY_FILE << *filename<< std::endl;
+                   // loadResult = xlang.load_file(*filename);
+                   // PROMT // defined MACRO
+                   ++i;
               }
-              else if (!strcmp(argv[i],"-i")){
-
+            else if (strcmp(argv[i],"-a") == 0 && argc > i){
+                    addNotID = atoi(argv[i+1]);
+                    std::cout << "addNotID: " << addNotID  << std::endl;
+                    
+                    if (argc > (i + 1) && addNotID > 0)
+                       txtstr = argv[i+1];
+                       std::cout << "addNotID: " << addNotID << "Text strig: " << txtstr <<  endl;
+                    else if (addNotID <= 0 && argc > (i+1) )
+                      std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
+                    else if (addNotID > 0 && argc <= (i+1))
+                      std::cout << TEXT_MISSING << argv[i] << std::endl;
+                    else{
+                      std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
+                      std::cout << TEXT_MISSING << argv[i] << std::endl;
+                      PROMT
+                    }
+                    ++i;
               }
+            else{
+              ;
+            }
           } // for
-          std::cout << "After for" <<  endl;
+         // std::cout << "Filename: " << *filename <<  endl;
+          //std::cout << "remNotID: " << remNotID <<  endl;
+        //std::cout << "addNotID: " << addNotID << "Text strig: " << txtstr <<  endl;
       }
       //std::cout << "Load file Error code: " << xlang.load_sts_code(); 
       //std::cout << "  Description: " << xlang.load_sts_descr() << std::endl;
@@ -81,6 +117,11 @@ int main(int argc, char *argv[])
       PROMT
    
     } 
-    while(1);
+    while(strcmp(cstr,"exit") != 0);
     return 0;
+}
+
+inline bool exists_test0 (const std::string& name) {
+                    ifstream f(name.c_str());
+                      return f.good();
 }
