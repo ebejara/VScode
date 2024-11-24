@@ -75,13 +75,13 @@ int main(int argc, char *argv[])
                     addNotID = atoi(argv[i+1]);
                     std::cout << "addNotID: " << addNotID  << std::endl;
                     
-                    if (argc > (i + 1) && addNotID > 0)
+                    if (argc > (i + 1) && addNotID > 0){
                        txtstr = argv[i+1];
-                       std::cout << "addNotID: " << addNotID << "Text strig: " << txtstr <<  endl;
-                    else if (addNotID <= 0 && argc > (i+1) )
-                      std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
-                    else if (addNotID > 0 && argc <= (i+1))
-                      std::cout << TEXT_MISSING << argv[i] << std::endl;
+                       std::cout << "addNotID: " << addNotID << "Text strig: " << txtstr <<  endl;}
+                    else if (addNotID <= 0 && argc > (i+1) ){
+                      std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;}
+                    else if (addNotID > 0 && argc <= (i+1)){
+                      std::cout << TEXT_MISSING << argv[i] << std::endl;}
                     else{
                       std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
                       std::cout << TEXT_MISSING << argv[i] << std::endl;
