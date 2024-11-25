@@ -9,12 +9,14 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <bits/stdc++.h>  
 #include "..\include\pugixml-1.14\src\pugixml.hpp"
 #include "myxml.hpp"
 #include "XMLP_Texts.hpp"
 using namespace std;
 
 bool exists_test0 (const std::string& name);
+int parse_string(std::string str, int &pcount, char *strarray[]);
 
 int main(int argc, char *argv[]) 
 {
@@ -25,7 +27,7 @@ int main(int argc, char *argv[])
     std::string exitstr = "exit";
     int remNotID = 0;
     int addNotID = 0;
-    int loadResult = -1;
+   // int loadResult = -1;
     //std::string filename;
     
       if (argc == 1){
@@ -38,7 +40,7 @@ int main(int argc, char *argv[])
       }
       else{
           std::cout<<"Inside else "<< std::endl;
-          for(int i = 1; i <= argc; ++i){
+          for(int i = 1; i < argc; i++){
             std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
              std::cout << "i = " << i << std::endl;
             if (strcmp(argv[i],"-r") == 0 && argc > i){ //Compare. O means compare is OK
@@ -76,8 +78,8 @@ int main(int argc, char *argv[])
                     std::cout << "addNotID: " << addNotID  << std::endl;
                     
                     if (argc > (i + 1) && addNotID > 0){
-                       txtstr = argv[i+1];
-                       std::cout << "addNotID: " << addNotID << "Text strig: " << txtstr <<  endl;}
+                       txtstr = argv[i+2];
+                       std::cout << "addNotID: " << addNotID << "Text string: " << txtstr <<  endl;}
                     else if (addNotID <= 0 && argc > (i+1) ){
                       std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;}
                     else if (addNotID > 0 && argc <= (i+1)){
@@ -113,8 +115,10 @@ int main(int argc, char *argv[])
 
       std::cin.getline(cstr,256);
       PROMT
-      std::cout << "debug text after getline" << cstr << endl;
+      std::cout << "debug text after getline:  " << cstr << endl;
       PROMT
+       parse_string(cstr, argc, argv);
+       std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
    
     } 
     while(strcmp(cstr,"exit") != 0);
@@ -124,4 +128,29 @@ int main(int argc, char *argv[])
 inline bool exists_test0 (const std::string& name) {
                     ifstream f(name.c_str());
                       return f.good();
+}
+
+int parse_string(std::string str, int &pcount, char *strarray[]){
+  std::cout << "Inside parse_string" << endl;
+  std::string s;
+  int i = 0;
+    //char* &argv[];
+    //str = "I love to read articles on Favtutor.";
+
+    // ss is an object of stringstream that references the S string.  
+    std::stringstream ss(str); 
+
+    // Use while loop to check the getline() function condition.  
+    while (getline(ss, s, ' ')) {
+        // `str` is used to store the token string while ' ' whitespace is used as the delimiter.
+        cout << str << endl;
+       // int n = s.length();
+        strcpy(strarray[i], s.c_str());
+       // strarray[i] = s;
+       std::cout << "Parse String word: " << strarray[i] << endl;
+        ++i;
+        pcount = i;
+    }
+
+    return 0;
 }
