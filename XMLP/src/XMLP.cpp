@@ -27,7 +27,8 @@ int main(int argc, char *argv[])
     std::string exitstr = "exit";
     int remNotID = 0;
     int addNotID = 0;
-   // int loadResult = -1;
+    int yesnoanswer = 0;
+    // int loadResult = -1;
     //std::string filename;
     do{ // while loop
       if (argc == 1){
@@ -73,13 +74,13 @@ int main(int argc, char *argv[])
                    // PROMT // defined MACRO
                    ++i;
               }
-            else if (strcmp(argv[i],"-a") == 0 && argc > i){
-                    addNotID = atoi(argv[i+1]);
-                    std::cout << "addNotID: " << addNotID  << std::endl;
+            else if (strcmp(argv[i],"-n") == 0 && argc > i){
+                    //addNotID = atoi(argv[i+1]);
+                    //std::cout << "addNotID: " << addNotID  << std::endl;
                     
                     if (argc > (i + 1) && addNotID > 0){
-                       txtstr = argv[i+2];
-                       std::cout << "addNotID: " << addNotID << "Text string: " << txtstr <<  endl;}
+                       txtstr = argv[i+1];
+                       std::cout << "Text string: " << txtstr <<  endl;}
                     else if (addNotID <= 0 && argc > (i+1) ){
                       std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;}
                     else if (addNotID > 0 && argc <= (i+1)){
@@ -110,16 +111,32 @@ int main(int argc, char *argv[])
       // std::cout << "Add node code: " << xlang.append_node()<< std::endl;
       //  std::cout << "Adding Notification: " << xlang.append_notification("Hello World")   << std::endl;
       //xlang.printall();
-      
-   
+        PROMT
+       if (xlang.load_file(*filename)== 0)
+       {
+          if (txtstr != nullptr ){
+            addNotID = xlang.find_last_notID();
+            std::cout << "Do you want to add Notification with ID: " << addNotID + 1 << "and text :"<< txtstr << endl;
+            PROMT
+            std::cout << "y = yes   n = no" << endl;
+            PROMT
+            yesnoanswer = getchar();
+             if (yesnoanswer == 'y')
+                xlang.append_notification(txtstr);
+            
+            txtstr = nullptr; // reset text string
+          }
 
-      std::cin.getline(cstr,256);
-      PROMT
-      std::cout << "debug text after getline:  " << cstr << endl;
-      PROMT
-       parse_string(cstr, argc, argv);
-       std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
-       PROMT
+
+       }
+        PROMT
+        std::cin.getline(cstr,256);
+        PROMT
+        std::cout << "debug text after getline:  " << cstr << endl;
+        PROMT
+        parse_string(cstr, argc, argv);
+        std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
+        PROMT
    
     } 
     while(strcmp(cstr,"exit") != 0);

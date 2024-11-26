@@ -173,9 +173,7 @@ class Myxmldoc
           }
             MastertextAdvanced = MastertextAdvanced.next_sibling("MasterMessageAdvanced");
           
-        }
-       
-           
+        } 
       std::cout << "printing Mastermessages"<< std::endl<< std::endl<< std::endl;
       MasterMessages.print(std::cout,"",pugi::format_indent);
       return 0;          
@@ -184,8 +182,6 @@ class Myxmldoc
   void save_file()
   {
     doc.save_file("../file/Language_file_20240406.xml");
-    
-  
   }
 
   void printall(){
