@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     int addNotID = 0;
    // int loadResult = -1;
     //std::string filename;
-    
+    do{ // while loop
       if (argc == 1){
           std::cout << "Please enter XML-file name (incl. path) " << std::endl;
           PROMT
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
       }
       else{
           std::cout<<"Inside else "<< std::endl;
-          for(int i = 1; i < argc; i++){
+          for(int i = 0; i < argc; i++){
             std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
              std::cout << "i = " << i << std::endl;
             if (strcmp(argv[i],"-r") == 0 && argc > i){ //Compare. O means compare is OK
@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
       //  std::cout << "Adding Notification: " << xlang.append_notification("Hello World")   << std::endl;
       //xlang.printall();
       
-   do{ // while loop
+   
 
       std::cin.getline(cstr,256);
       PROMT
@@ -119,6 +119,7 @@ int main(int argc, char *argv[])
       PROMT
        parse_string(cstr, argc, argv);
        std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
+       PROMT
    
     } 
     while(strcmp(cstr,"exit") != 0);
