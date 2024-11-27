@@ -21,7 +21,7 @@ class Myxmldoc
 
   
   /*Load the default XML-file*/
-  pugi::xml_parse_result result = doc.load_file("../file/Language_file_20240406.xml");
+  pugi::xml_parse_result result = doc.load_file("../file/Language.xml");
   /*Load the relevant child from the XML-file*/
   pugi::xml_node mastertxts = doc.child("TextExchangeFormat").child("MasterMessages").child("MasterMessageAdvanced");     
      
@@ -54,7 +54,16 @@ class Myxmldoc
  /*Finds the last notification ID from the XML-file*/
   int find_last_notID() const
   {
-    pugi::xml_node mastertxt = mastertxts;
+       if (result.status == 0){
+         
+         std::cout << "find_last_notID(): result.status is 0. File is loaded"<< std::endl;
+         }
+         else{
+           std::cout << "find_last_notID() load result is: "<< result.description() <<  std::endl;
+         }
+
+
+    pugi::xml_node mastertxt = this -> mastertxts;
   
     for(mastertxt.first_child(); mastertxt; mastertxt = mastertxt.next_sibling("MasterMessageAdvanced"))
     {
@@ -64,7 +73,7 @@ class Myxmldoc
         return mastertxt.previous_sibling().first_child().text().as_int();
       }
     }
-    return 0;
+    return -10;
   };
 
   /*Counts the number of menu item Ids.*/

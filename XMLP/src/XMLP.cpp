@@ -25,29 +25,30 @@ int main(int argc, char *argv[])
     const char* txtstr;
     char cstr[256];
     std::string exitstr = "exit";
+    std::string tmptxtstr;
     int remNotID = 0;
     int addNotID = 0;
-    int yesnoanswer = 0;
+    char yesnoanswer = 0;
     // int loadResult = -1;
     //std::string filename;
     do{ // while loop
       if (argc == 1){
           std::cout << "Please enter XML-file name (incl. path) " << std::endl;
           PROMT
-          std::cin >> *filename;
+          std::cin >> *filename; // file name is stored in pointer
           PROMT
             
-        //  std::cout << "Filename: " << filename << std::endl;
+       
       }
       else{
-          std::cout<<"Inside else "<< std::endl;
+        //  std::cout<<"Inside else "<< std::endl;
           for(int i = 0; i < argc; i++){
-            std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
-             std::cout << "i = " << i << std::endl;
+           // std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
+            // std::cout << "i = " << i << std::endl;
             if (strcmp(argv[i],"-r") == 0 && argc > i){ //Compare. O means compare is OK
-                std::cout << "Inside -r. argv[i + 1] is: " << argv[i+1]  << std::endl;
+               // std::cout << "Inside -r. argv[i + 1] is: " << argv[i+1]  << std::endl;
                 remNotID = atoi(argv[i+1]);
-                std::cout << "remNotID: " << remNotID  << std::endl;
+               // std::cout << "remNotID: " << remNotID  << std::endl;
                 if (remNotID <= 0){
                     std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
                     PROMT
@@ -64,7 +65,7 @@ int main(int argc, char *argv[])
               }
             else if(strcmp(argv[i],"-o") == 0 && argc > i){
                     *filename = (argv[i + 1]);
-                    std::cout << "Filename is: " << *filename <<  endl;
+                   // std::cout << "Filename is: " << *filename <<  endl;
                     if(!exists_test0 (*filename)){
                        std::cout << FILE_NOT_EXIST <<std::endl;
                        PROMT
@@ -75,21 +76,14 @@ int main(int argc, char *argv[])
                    ++i;
               }
             else if (strcmp(argv[i],"-n") == 0 && argc > i){
-                    //addNotID = atoi(argv[i+1]);
-                    //std::cout << "addNotID: " << addNotID  << std::endl;
-                    
-                    if (argc > (i + 1) && addNotID > 0){
-                       txtstr = argv[i+1];
-                       std::cout << "Text string: " << txtstr <<  endl;}
-                    else if (addNotID <= 0 && argc > (i+1) ){
-                      std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;}
-                    else if (addNotID > 0 && argc <= (i+1)){
-                      std::cout << TEXT_MISSING << argv[i] << std::endl;}
+                    if (argc > (i + 1)){
+                       txtstr = argv[i+1]; // text has quotationsmarks then copy to varible
+                       std::cout << "Text string: " << txtstr <<  endl;
+                       PROMT
+                     }
                     else{
-                      std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
                       std::cout << TEXT_MISSING << argv[i] << std::endl;
-                      PROMT
-                    }
+                      PROMT}
                     ++i;
               }
             else{
@@ -112,19 +106,22 @@ int main(int argc, char *argv[])
       //  std::cout << "Adding Notification: " << xlang.append_notification("Hello World")   << std::endl;
       //xlang.printall();
         PROMT
-       if (xlang.load_file(*filename)== 0)
+       if (xlang.load_file(*filename) == 0) // file is loaded correctly
        {
           if (txtstr != nullptr ){
             addNotID = xlang.find_last_notID();
-            std::cout << "Do you want to add Notification with ID: " << addNotID + 1 << "and text :"<< txtstr << endl;
+            std::cout << NOT_NEW_ID_Q << (++addNotID) << NOT_NEW_TXT << txtstr << endl;
             PROMT
-            std::cout << "y = yes   n = no" << endl;
+            std::cout << YES_NO << endl;
             PROMT
             yesnoanswer = getchar();
-             if (yesnoanswer == 'y')
-                xlang.append_notification(txtstr);
-            
+             if (yesnoanswer == 'y'){
+                xlang.append_notification(txtstr);}
             txtstr = nullptr; // reset text string
+          }
+          else{
+            std::cout << NOT_NEW_ID_Q << addNotID + 1 << NOT_NEW_TXT << txtstr << endl;
+            PROMT
           }
 
 
@@ -136,6 +133,9 @@ int main(int argc, char *argv[])
         PROMT
         parse_string(cstr, argc, argv);
         std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
+        std::cout << "argv["<< 1 << "]" << argv[1] << std::endl;
+        std::cout << "argv["<< 2 << "]" << argv[2] << std::endl;
+        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;
         PROMT
    
     } 
@@ -164,8 +164,8 @@ int parse_string(std::string str, int &pcount, char *strarray[]){
         cout << str << endl;
        // int n = s.length();
         strcpy(strarray[i], s.c_str());
-       // strarray[i] = s;
-       std::cout << "Parse String word: " << strarray[i] << endl;
+        strarray[i] = s;
+         std::cout << "Parse String word: " << strarray[i] << endl;
         ++i;
         pcount = i;
     }
