@@ -22,12 +22,13 @@ void clear_arg(int *pcount, char *strarray[]);
 int main(int argc, char *argv[]) 
 {
     Myxmldoc xlang;
-    char* filename[256];
+    char filenamebuffer[256];
+    char *filename = filenamebuffer;
     const char* txtstr;
     char cstr[256];
     std::string exitstr = "exit";
     std::string tmptxtstr;
-    int remNotID = 0;
+    int remID = 0;
     int addNotID = 0;
     char yesnoanswer = 0;
     int *pargc = &argc;
@@ -37,68 +38,59 @@ int main(int argc, char *argv[])
     //std::string filename;
     
     do{ // while loop
-      if (argc == 1){
-          std::cout << "Please enter XML-file name (incl. path) " << std::endl;
-          PROMT
-          std::cin >> *filename; // file name is stored in pointer
-          PROMT
-            
-       
-      }
-      else{
-        //  std::cout<<"Inside else "<< std::endl;
-          for(int i = 0; i < argc; i++){
-           // std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
-            // std::cout << "i = " << i << std::endl;
-            if (strcmp(argv[i],"-r") == 0 && argc > i){ //Compare. O means compare is OK
-               // std::cout << "Inside -r. argv[i + 1] is: " << argv[i+1]  << std::endl;
-                remNotID = atoi(argv[i+1]);
-               // std::cout << "remNotID: " << remNotID  << std::endl;
-                if (remNotID <= 0){
-                    std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
-                    PROMT
-                  }
-                /*if (loadResult != 0){
-                    std::cout << NO_FILE << std::endl;
-                    PROMT// defined MACRO
-                  }
-                else if(loadResult == 0 && notID > 0){
-                    std::cout << TRY_REM_ID << notID<< std::endl;
-                    PROMT // defined MACRO
-                  }*/
-                 ++i;
-              }
-            else if(strcmp(argv[i],"-o") == 0 && argc > i){
-                    *filename = (argv[i + 1]);
-                   // std::cout << "Filename is: " << *filename <<  endl;
-                    if(!exists_test0 (*filename)){
-                       std::cout << FILE_NOT_EXIST <<std::endl;
-                       PROMT
+        if (argc == 1){
+            std::cout << "Please enter XML-file name (incl. path) " << std::endl;
+            PROMT
+            std::cin >> *filename; // file name is stored in pointer
+            PROMT
+        }
+        else{
+          //  std::cout<<"Inside else "<< std::endl;
+            for(int i = 0; i < argc; i++){
+            // std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
+              // std::cout << "i = " << i << std::endl;
+              if (strcmp(argv[i],"-r") == 0 && argc > i){ //Compare. O means compare is OK
+                // std::cout << "Inside -r. argv[i + 1] is: " << argv[i+1]  << std::endl;
+                  remID = atoi(argv[i+1]);
+                // std::cout << "remNotID: " << remNotID  << std::endl;
+                  if (remID <= 0){
+                      std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
+                      PROMT
                     }
-                   // std::cout << TRY_FILE << *filename<< std::endl;
-                   // loadResult = xlang.load_file(*filename);
-                   // PROMT // defined MACRO
-                   ++i;
+                  ++i; // increased to skip remNotID input in next for loop iteration
               }
-            else if (strcmp(argv[i],"-n") == 0 && argc > i){
-                    if (argc > (i + 1)){
-                       txtstr = argv[i+1]; // text has quotationsmarks then copy to varible
-                       std::cout << "Text string: " << txtstr <<  endl;
-                       PROMT
-                     }
-                    else{
-                      std::cout << TEXT_MISSING << argv[i] << std::endl;
-                      PROMT}
-                    ++i;
+              else if(strcmp(argv[i],"-o") == 0 && argc > i){
+                      filename = (argv[i + 1]);
+                    // std::cout << "Filename is: " << *filename <<  endl;
+                      if(!exists_test0 (filename)){
+                          std::cout << FILE_NOT_EXIST <<std::endl;
+                          PROMT
+                      }
+                    // std::cout << TRY_FILE << *filename<< std::endl;
+                    // loadResult = xlang.load_file(*filename);
+                    // PROMT // defined MACRO
+                    ++i;// increased to skip remNotID input in next for loop iteration
               }
-            else{
-              ;
-            }
-          } // for
-         // std::cout << "Filename: " << *filename <<  endl;
-          //std::cout << "remNotID: " << remNotID <<  endl;
-        //std::cout << "addNotID: " << addNotID << "Text strig: " << txtstr <<  endl;
-      }
+              else if (strcmp(argv[i],"-n") == 0 && argc > i){
+                      if (argc > (i + 1)){
+                          txtstr = argv[i+1]; // text has quotationsmarks then copy to varible
+                          std::cout << "Text string: " << txtstr <<  endl;
+                          PROMT
+                      }
+                      else{
+                          std::cout << TEXT_MISSING << argv[i] << std::endl;
+                          PROMT
+                      }
+                      ++i;// increased to skip txtstr input in next for loop iteration
+              }
+              else{
+                ;
+              }
+            } // for loop for parsing command line input
+              // std::cout << "Filename: " << *filename <<  endl;
+              //std::cout << "remNotID: " << remNotID <<  endl;
+            //std::cout << "addNotID: " << addNotID << "Text strig: " << txtstr <<  endl;
+        } // -else
       //std::cout << "Load file Error code: " << xlang.load_sts_code(); 
       //std::cout << "  Description: " << xlang.load_sts_descr() << std::endl;
       //std::cout << std::endl;
@@ -111,32 +103,44 @@ int main(int argc, char *argv[])
       //  std::cout << "Adding Notification: " << xlang.append_notification("Hello World")   << std::endl;
       //xlang.printall();
         PROMT
-       if (xlang.load_file(*filename) == 0) // file is loaded correctly
+       if (xlang.load_file(filename) == 0) // file is loaded correctly
        {
-          if (txtstr != nullptr ){
-            addNotID = xlang.find_last_notID();
-            std::cout << NOT_NEW_ID_Q << (++addNotID) << NOT_NEW_TXT << txtstr << endl;
-            PROMT
-            std::cout << YES_NO << endl;
-            PROMT
-            yesnoanswer = getchar();
+         std::cout << "inside if xlang.load_file call" << std::endl;
+          if (txtstr != nullptr){
+              addNotID = xlang.find_last_notID();
+              std::cout << NOT_NEW_ID_CONFIRM  << (++addNotID) << NOT_NEW_TXT_CONFIRM  << txtstr << std::endl;
+              PROMT
+              std::cout << YES_NO << endl;
+              PROMT
+              yesnoanswer = getchar();
              if (yesnoanswer == 'y'){
              //   xlang.append_notification(txtstr);
              }
-            txtstr = nullptr; // reset text string
-          }
+              txtstr = nullptr; // reset text string
+          } // if (txtstr != nullptr)
           else{
-            std::cout << NOT_NEW_ID_Q << addNotID + 1 << NOT_NEW_TXT << txtstr << endl;
-            PROMT
+              std::cout << NOT_NEW_ID_INSTR<< std::endl;
+              std::cout << TEXT_NEW_ID_INSTR<< std::endl;
+          }// else (txtstr != nullptr)
+
+          if (remID  > 0 && xlang.ID_exists(remID)){ //Try to remove ID.
+                // call function to remove ID
+              remID = 0; 
           }
-       }
-       std::cout << COMMANDS_DONE << endl;
+          else{ // ID not possible to remove
+              std::cout << REM_ID_NOT_EXIST<< std::endl;
+              remID = 0;
+          }
+        }//.xlang.Load file call
+
+       
+       std::cout << COMMANDS_DONE << std::endl;
        clear_arg(pargc, pargv);
        // argv[0] = "hej";
-        std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
+       /* std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
         std::cout << "argv["<< 1 << "]" << argv[1] << std::endl;
         std::cout << "argv["<< 2 << "]" << argv[2] << std::endl;
-        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;
+        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;*/
         std::cout << "argc: " << argc<< std::endl;
         PROMT
         std::cin.getline(cstr,256);
@@ -150,10 +154,10 @@ int main(int argc, char *argv[])
         std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;*/
         PROMT
    
-      } 
+    } //-do -while
     while(strcmp(cstr,"exit") != 0);
     return 0;
-}
+}// main
 
 inline bool exists_test0 (const std::string& name) {
                     ifstream f(name.c_str());

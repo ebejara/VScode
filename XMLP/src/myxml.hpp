@@ -24,13 +24,14 @@ class Myxmldoc
   pugi::xml_parse_result result = doc.load_file("../file/Language.xml");
   /*Load the relevant child from the XML-file*/
   pugi::xml_node mastertxts = doc.child("TextExchangeFormat").child("MasterMessages").child("MasterMessageAdvanced");     
-     
+  
  int load_file(char *filename){
     pugi::xml_parse_result result = doc.load_file(filename);
     //std::cout << "Error code: " << load_sts_code(result) << std::endl;
     //std::cout << "Error description: " << load_sts_descr(result) << std::endl;
     if (load_sts_code(result) == 0){
       std::cout << FILE_LOADED << std::endl;
+      //mastertxts.print(std::cout,"",pugi::format_indent);
     }
     else{
       std::cout << FILE_LOAD_ERROR << load_sts_descr(result) << std::endl;
@@ -54,25 +55,18 @@ class Myxmldoc
  /*Finds the last notification ID from the XML-file*/
   int find_last_notID() const
   {
-       if (result.status == 0){
-         
-         std::cout << "find_last_notID(): result.status is 0. File is loaded"<< std::endl;
-         }
-         else{
-           std::cout << "find_last_notID() load result is: "<< result.description() <<  std::endl;
-         }
-
-
-    pugi::xml_node mastertxt = this -> mastertxts;
-  
+    pugi::xml_node mastertxt = mastertxts;
+    //mastertxt.first_child().print(std::cout,"",pugi::format_indent);
     for(mastertxt.first_child(); mastertxt; mastertxt = mastertxt.next_sibling("MasterMessageAdvanced"))
     {
       if (mastertxt.first_child().text().as_int() == first_menu_text)
       {
-        //std::cout << "In-If: " << mastertxt.first_child().text().as_int() << std::endl;
+       // std::cout << "In-If: " << mastertxt.first_child().text().as_int() << std::endl;
         return mastertxt.previous_sibling().first_child().text().as_int();
       }
+      //std::cout << "find_last_notID() - inside for" << std::endl;
     }
+    //std::cout << "find_last_notID() - returning: -10 " <<  std::endl;
     return -10;
   };
 
