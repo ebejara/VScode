@@ -12,3 +12,4 @@
 #define NOT_NEW_ID_Q  "Do you want to add Notification with new ID: "
 #define NOT_NEW_TXT    " and text :"
 #define YES_NO "y [yes]   n [no]"
+#define COMMANDS_DONE "Commands executed.Insert new commands or write \"exit\" to end"

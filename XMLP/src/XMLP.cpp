@@ -16,7 +16,8 @@
 using namespace std;
 
 bool exists_test0 (const std::string& name);
-int parse_string(std::string str, int &pcount, char *strarray[]);
+int parse_string(std::string str, int *pcount, char **strarray);
+void clear_arg(int *pcount, char *strarray[]);
 
 int main(int argc, char *argv[]) 
 {
@@ -29,8 +30,12 @@ int main(int argc, char *argv[])
     int remNotID = 0;
     int addNotID = 0;
     char yesnoanswer = 0;
+    int *pargc = &argc;
+    char **pargv = argv;
+    
     // int loadResult = -1;
     //std::string filename;
+    
     do{ // while loop
       if (argc == 1){
           std::cout << "Please enter XML-file name (incl. path) " << std::endl;
@@ -116,29 +121,36 @@ int main(int argc, char *argv[])
             PROMT
             yesnoanswer = getchar();
              if (yesnoanswer == 'y'){
-                xlang.append_notification(txtstr);}
+             //   xlang.append_notification(txtstr);
+             }
             txtstr = nullptr; // reset text string
           }
           else{
             std::cout << NOT_NEW_ID_Q << addNotID + 1 << NOT_NEW_TXT << txtstr << endl;
             PROMT
           }
-
-
        }
+       std::cout << COMMANDS_DONE << endl;
+       clear_arg(pargc, pargv);
+       // argv[0] = "hej";
+        std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
+        std::cout << "argv["<< 1 << "]" << argv[1] << std::endl;
+        std::cout << "argv["<< 2 << "]" << argv[2] << std::endl;
+        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;
+        std::cout << "argc: " << argc<< std::endl;
         PROMT
         std::cin.getline(cstr,256);
         PROMT
         std::cout << "debug text after getline:  " << cstr << endl;
         PROMT
-        parse_string(cstr, argc, argv);
-        std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
+        parse_string(cstr, pargc, pargv);
+       /* std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
         std::cout << "argv["<< 1 << "]" << argv[1] << std::endl;
         std::cout << "argv["<< 2 << "]" << argv[2] << std::endl;
-        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;
+        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;*/
         PROMT
    
-    } 
+      } 
     while(strcmp(cstr,"exit") != 0);
     return 0;
 }
@@ -148,7 +160,7 @@ inline bool exists_test0 (const std::string& name) {
                       return f.good();
 }
 
-int parse_string(std::string str, int &pcount, char *strarray[]){
+int parse_string(std::string str, int *pcount, char *strarray[]){
   std::cout << "Inside parse_string" << endl;
   std::string s;
   int i = 0;
@@ -164,11 +176,19 @@ int parse_string(std::string str, int &pcount, char *strarray[]){
         cout << str << endl;
        // int n = s.length();
         strcpy(strarray[i], s.c_str());
-        strarray[i] = s;
+        //strarray[i] = s;
          std::cout << "Parse String word: " << strarray[i] << endl;
         ++i;
-        pcount = i;
+        *pcount = i;
     }
 
     return 0;
+}
+
+inline void clear_arg(int *pcount, char **strarray ){
+   
+   for(int i = 0;i < *pcount; ++i){
+     *(strarray + i) = nullptr;
+     }
+     *pcount = 0;
 }
