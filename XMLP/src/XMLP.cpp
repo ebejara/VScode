@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
     char *filename = filenamebuffer;
     const char* txtstr;
     char cstr[256];
+   // std::string cstr;
     std::string exitstr = "exit";
     std::string tmptxtstr;
     int remID = 0;
@@ -46,18 +47,18 @@ int main(int argc, char *argv[])
         }
         else{
           //  std::cout<<"Inside else "<< std::endl;
-            for(int i = 0; i < argc; i++){
+            for(int i = 0; i < argc; ++i){
             // std::cout << "argv["<< i<< "]" << argv[i] << std::endl;
               // std::cout << "i = " << i << std::endl;
               if (strcmp(argv[i],"-r") == 0 && argc > i){ //Compare. O means compare is OK
-                // std::cout << "Inside -r. argv[i + 1] is: " << argv[i+1]  << std::endl;
+                 std::cout << "Inside -r. argv[i + 1] is: " << argv[i+1]  << std::endl;
                   remID = atoi(argv[i+1]);
                 // std::cout << "remNotID: " << remNotID  << std::endl;
                   if (remID <= 0){
                       std::cout << REM_ID_WRONG_ID << argv[i] << std::endl;
                       PROMT
                     }
-                  ++i; // increased to skip remNotID input in next for loop iteration
+                  if (i<argc)++i; // increased to skip remNotID input in next for loop iteration
               }
               else if(strcmp(argv[i],"-o") == 0 && argc > i){
                       filename = (argv[i + 1]);
@@ -69,7 +70,7 @@ int main(int argc, char *argv[])
                     // std::cout << TRY_FILE << *filename<< std::endl;
                     // loadResult = xlang.load_file(*filename);
                     // PROMT // defined MACRO
-                    ++i;// increased to skip remNotID input in next for loop iteration
+                    if (i<argc)++i;// increased to skip remNotID input in next for loop iteration
               }
               else if (strcmp(argv[i],"-n") == 0 && argc > i){
                       if (argc > (i + 1)){
@@ -81,7 +82,7 @@ int main(int argc, char *argv[])
                           std::cout << TEXT_MISSING << argv[i] << std::endl;
                           PROMT
                       }
-                      ++i;// increased to skip txtstr input in next for loop iteration
+                      if (i<argc)++i;// increased to skip txtstr input in next for loop iteration
               }
               else{
                 ;
@@ -143,15 +144,17 @@ int main(int argc, char *argv[])
         std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;*/
         std::cout << "argc: " << argc<< std::endl;
         PROMT
+       
+        //std::cin.getline(cstr);
         std::cin.getline(cstr,256);
         PROMT
         std::cout << "debug text after getline:  " << cstr << endl;
         PROMT
         parse_string(cstr, pargc, pargv);
-       /* std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
+        std::cout << "argv["<< 0 << "]" << argv[0] << std::endl;
         std::cout << "argv["<< 1 << "]" << argv[1] << std::endl;
         std::cout << "argv["<< 2 << "]" << argv[2] << std::endl;
-        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;*/
+        std::cout << "argv["<< 3 << "]" << argv[3] << std::endl;
         PROMT
    
     } //-do -while
@@ -168,20 +171,18 @@ int parse_string(std::string str, int *pcount, char *strarray[]){
   std::cout << "Inside parse_string" << endl;
   std::string s;
   int i = 0;
-    //char* &argv[];
-    //str = "I love to read articles on Favtutor.";
-
-    // ss is an object of stringstream that references the S string.  
     std::stringstream ss(str); 
 
     // Use while loop to check the getline() function condition.  
     while (getline(ss, s, ' ')) {
         // `str` is used to store the token string while ' ' whitespace is used as the delimiter.
-        cout << str << endl;
+       // cout << s << endl;
+         std::cout << "i :" << i<< endl;
+       // strarray[i] = &s.c_str();
        // int n = s.length();
         strcpy(strarray[i], s.c_str());
-        //strarray[i] = s;
-         std::cout << "Parse String word: " << strarray[i] << endl;
+       // strarray[i] = s.c_str();
+         std::cout << "strarray"<<"["<<i<< "]: " << strarray[i] << endl;
         ++i;
         *pcount = i;
     }
@@ -192,7 +193,8 @@ int parse_string(std::string str, int *pcount, char *strarray[]){
 inline void clear_arg(int *pcount, char **strarray ){
    
    for(int i = 0;i < *pcount; ++i){
-     *(strarray + i) = nullptr;
+    char cg[1] = {'g'};
+     *(strarray + i) = cg;
      }
      *pcount = 0;
 }

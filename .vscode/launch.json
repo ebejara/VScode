@@ -5,13 +5,13 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/XMLP/output/XMLP.exe",
-            "args": [],
+            "args": ["-o","../file/Language.xml", "-r", "45", "-n", "get"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -37,7 +37,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
