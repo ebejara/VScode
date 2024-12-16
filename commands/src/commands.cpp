@@ -36,10 +36,6 @@ do{
             cout<< "pargv("<<i<<") " << *(pargv + i)<< endl;
 
         }
-
-        
-        
-        
         pargv = newargv;
         pargc = &newargc;
 
@@ -61,11 +57,11 @@ do{
         *pargc = 10;
         parse_gln(istr, pargc, pargv);
 }          
- while(strcmp(input, "Exit") != 0);  
+ while(strcmp(input, "Exit") != 0); //Do-While 
         
          for (int i = 0; i < SIZE_ARRAY; i++) {
                 free(pargv[i]);
-    }
+          }
         
         cout << "program finished" << endl;
         return 0;

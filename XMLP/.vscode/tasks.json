@@ -5,13 +5,14 @@
             "label": "C/C++: g++.exe build active file",
             "command": "g++.exe",
             "args": [
-                "-fdiagnostics-color=always",
-                //"-o",
-                //"${workspaceFolderBasename}\\output\\${fileBasenameNoExtension}.exe",
-                
-                "-g",
-                "${file}"
-               
+                "-fdiagnostics-color=always"
+                ,"-Wall"
+                ,"-Wextra"
+                ,"-g3"
+                 ,"-o"
+                ,"${workspaceFolderBasename}\\output\\${fileBasenameNoExtension}.exe"
+                ,"-L"
+                ,"${workspaceFolderBasename}\\include\\pugixml-1.14\\src\\${fileBasenameNoExtension}.0"
             ],
             "options": {
                 "cwd": "${fileDirname}"

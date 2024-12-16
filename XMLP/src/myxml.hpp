@@ -182,13 +182,42 @@ class Myxmldoc
       return 0;          
   }
 
+
+bool remove_TextbyID(int ID)
+  {
+      pugi::xml_node mastertxt = mastertxts;
+      pugi::xml_node MasterMessages = mastertxts.parent();// "MasterMessages"
+      pugi::xml_node rnode;
+   
+      for(mastertxt.first_child(); mastertxt; mastertxt = mastertxt.next_sibling("MasterMessageAdvanced"))
+      {
+        if (mastertxt.first_child().text().as_int()== ID)
+        {
+       // return mastertxt.last_child().text().as_string();
+          rnode = mastertxt;
+          // rnode.print(std::cout,"",pugi::format_indent);
+           // mastertxt.remove_child(rnode)
+           std::cout << "Removing node: "<< std::endl;
+           rnode.print(std::cout,"",pugi::format_indent);
+          return MasterMessages.remove_child(rnode);
+        }
+      }
+     
+    return false; // Id was not found.
+
+  };
+
+
+
+
   void save_file()
   {
     doc.save_file("../file/Language_file_20240406.xml");
   }
 
   void printall(){
-    doc.print(std::cout,"",pugi::format_indent);
+    mastertxts.parent().print(std::cout,"",pugi::format_indent);
   }
 
 };
+
